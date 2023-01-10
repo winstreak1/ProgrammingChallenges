@@ -5,6 +5,7 @@ import hashlib
 import os.path as path
 import random
 
+
 DIR = path.abspath(path.dirname(__file__))
 FILES = {
     'clothing.csv': ('Blouses', 'Shirts', 'Tanks', 'Cardigans', 'Pants', 'Capris', '"Gingham" Shorts',),
@@ -34,3 +35,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
