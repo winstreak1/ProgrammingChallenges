@@ -16,3 +16,9 @@ print(df)
 with open('output.csv', 'w') as f:
     writer = csv.writer(f)
     writer.writerow(df)
+
+#uncomment to saver to google drive
+#drive.mount('/content/drive')
+#path = '/content/drive/My Drive/output.csv'
+#with open(path, 'w', encoding = 'utf-8-sig') as f:
+#  df.to_csv(f)
