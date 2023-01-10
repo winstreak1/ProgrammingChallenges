@@ -22,3 +22,4 @@ with open('output.csv', 'w') as f:
 #path = '/content/drive/My Drive/output.csv'
 #with open(path, 'w', encoding = 'utf-8-sig') as f:
 #  df.to_csv(f)
+
